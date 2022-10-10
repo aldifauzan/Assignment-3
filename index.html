@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Covid19 Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Covid 19 Tracker</h1>
+
+      <div>
+        <input type="text" placeholder="Search" id="input" />
+        <button id="button">Get Data</button>
+
+        
+      </div>
+      <div class="icon-container">
+        
+
+        
+      <div class="card text-white bg-primary">
+        <div class="icon">
+          <?xml version="1.0" ?><svg width="64px" height="64px" viewBox="0 0 64 64" id="_x31_-outline-expand" style="enable-background:new 0 0 64 64;" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="32" cy="32" r="21" style="fill:#AA494A;"/><circle cx="32" cy="32" r="19" style="fill:#D36767;"/><rect height="8" style="fill:#3A4249;" width="2" x="31" y="7"/><rect height="8.001" style="fill:#3A4249;" transform="matrix(0.9136 -0.4067 0.4067 0.9136 -3.1842 10.6484)" width="2" x="22.458" y="8.815"/><rect height="8.001" style="fill:#3A4249;" transform="matrix(0.809 -0.5879 0.5879 0.809 -5.069 14.4225)" width="2" x="18.656" y="11.01"/><rect height="8" style="fill:#3A4249;" transform="matrix(0.5 -0.866 0.866 0.5 -11.7129 22.7126)" width="2" x="12.813" y="17.5"/><rect height="8.001" style="fill:#3A4249;" transform="matrix(0.1045 -0.9945 0.9945 0.1045 -19.6886 37.745)" width="2" x="10.115" y="25.805"/><rect height="2" style="fill:#3A4249;" transform="matrix(0.9945 -0.1045 0.1045 0.9945 -3.5119 1.3484)" width="8.001" x="7.114" y="33.195"/><rect height="2" style="fill:#3A4249;" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -19.3966 12.5975)" width="8" x="9.813" y="41.5"/><rect height="2" style="fill:#3A4249;" transform="matrix(0.5878 -0.809 0.809 0.5878 -31.5301 36.094)" width="8.001" x="15.656" y="47.989"/><rect height="2" style="fill:#3A4249;" transform="matrix(0.4067 -0.9135 0.9135 0.4067 -32.8426 51.7971)" width="8.001" x="19.458" y="50.185"/><rect height="8" style="fill:#3A4249;" width="2" x="31" y="49"/><rect height="8.001" style="fill:#3A4249;" transform="matrix(0.9136 -0.4067 0.4067 0.9136 -17.3127 20.9128)" width="2" x="39.541" y="47.184"/><rect height="8.001" style="fill:#3A4249;" transform="matrix(0.809 -0.5879 0.5879 0.809 -20.3275 35.4261)" width="2" x="43.344" y="44.989"/><rect height="8" style="fill:#3A4249;" transform="matrix(0.5 -0.866 0.866 0.5 -11.7127 64.7131)" width="2" x="49.187" y="38.5"/><rect height="8.001" style="fill:#3A4249;" transform="matrix(0.1045 -0.9945 0.9945 0.1045 13.3521 83.2179)" width="2" x="51.885" y="30.194"/><rect height="2" style="fill:#3A4249;" transform="matrix(0.9945 -0.1045 0.1045 0.9945 -2.8246 5.6887)" width="8.001" x="48.885" y="28.805"/><rect height="2" style="fill:#3A4249;" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -4.0268 27.9688)" width="8" x="46.187" y="20.5"/><rect height="2" style="fill:#3A4249;" transform="matrix(0.5878 -0.809 0.809 0.5878 6.1341 42.0606)" width="8.001" x="40.343" y="14.01"/><rect height="2" style="fill:#3A4249;" transform="matrix(0.4067 -0.9135 0.9135 0.4067 12.3449 44.6396)" width="8.001" x="36.541" y="11.815"/><path d="M44,32c-0.382,0-0.747-0.22-0.913-0.591c-0.473-1.056,0.258-2.017,0.792-2.719  c0.205-0.269,0.63-0.83,0.616-1.015c-0.136-0.034-0.78,0.154-1.123,0.253c-0.832,0.24-1.97,0.566-2.728-0.26  c-0.766-0.738-0.416-1.836-0.134-2.72c0.088-0.274,0.238-0.744,0.256-1.001c-0.19,0.111-0.596,0.43-0.83,0.613  c-0.724,0.568-1.626,1.273-2.621,0.787c-0.98-0.414-1.021-1.564-1.053-2.489c-0.009-0.268-0.025-0.716-0.083-0.972  c-0.132,0.186-0.38,0.589-0.527,0.828c-0.483,0.786-1.082,1.768-2.189,1.642c-1.058-0.059-1.484-1.126-1.827-1.984  c-0.1-0.251-0.269-0.672-0.412-0.895c-0.057,0.217-0.152,0.672-0.208,0.942c-0.189,0.905-0.424,2.032-1.514,2.283  c-1.011,0.299-1.773-0.562-2.388-1.25c-0.186-0.208-0.5-0.562-0.714-0.719c0.015,0.222,0.081,0.695,0.12,0.973  c0.128,0.917,0.289,2.06-0.648,2.676c-0.846,0.632-1.86,0.106-2.674-0.315c-0.27-0.14-0.741-0.384-0.987-0.431  c0.047,0.216,0.301,0.704,0.446,0.98c0.43,0.823,0.964,1.848,0.313,2.776c-0.558,0.912-1.733,0.832-2.59,0.773  c-0.405-0.028-1.161-0.079-1.238,0.093c-0.226,0.504-0.816,0.729-1.321,0.505c-0.504-0.225-0.73-0.816-0.505-1.321  c0.646-1.448,2.244-1.339,3.201-1.273c0.207,0.014,0.485,0.033,0.687,0.028c-0.083-0.203-0.223-0.473-0.319-0.657  c-0.463-0.888-1.163-2.229-0.153-3.329c1.127-1.094,2.542-0.36,3.387,0.078c0.145,0.075,0.327,0.169,0.49,0.245  c-0.017-0.182-0.045-0.389-0.068-0.552c-0.139-0.995-0.35-2.499,0.978-3.151c1.406-0.601,2.42,0.536,3.09,1.288  c0.1,0.112,0.225,0.252,0.343,0.375c0.04-0.162,0.078-0.342,0.108-0.487c0.193-0.923,0.516-2.469,1.982-2.63  c1.509-0.095,2.081,1.317,2.453,2.25c0.054,0.136,0.122,0.305,0.189,0.457c0.093-0.139,0.188-0.295,0.266-0.421  c0.527-0.856,1.327-2.147,2.755-1.818c1.469,0.419,1.524,1.998,1.557,2.941c0.005,0.153,0.012,0.344,0.025,0.516  c0.141-0.102,0.293-0.221,0.415-0.317c0.796-0.624,1.999-1.567,3.243-0.748c1.238,0.915,0.777,2.36,0.472,3.317  c-0.058,0.179-0.132,0.412-0.18,0.605c0.187-0.042,0.41-0.106,0.583-0.156c0.917-0.264,2.454-0.707,3.339,0.56  c0.829,1.339-0.083,2.54-0.687,3.334c-0.174,0.229-0.457,0.601-0.523,0.782c0.163,0.482-0.065,1.019-0.539,1.231  C44.276,31.972,44.137,32,44,32z" style="fill:#F2DAAE;"/><circle cx="32" cy="5" r="3" style="fill:#62C4C3;"/><circle cx="8.617" cy="18.5" r="3" style="fill:#62C4C3;"/><path d="M7.117,42.902C5.683,43.73,5.191,45.566,6.019,47s2.664,1.926,4.098,1.098  c1.434-0.828,1.926-2.664,1.098-4.098S8.551,42.074,7.117,42.902z" style="fill:#62C4C3;"/><circle cx="32" cy="59" r="3" style="fill:#62C4C3;"/><path d="M56.883,42.902c-1.434-0.828-3.27-0.336-4.098,1.098s-0.336,3.27,1.098,4.098  c1.434,0.828,3.27,0.336,4.098-1.098S58.317,43.73,56.883,42.902z" style="fill:#62C4C3;"/><circle cx="55.383" cy="18.5" r="3" style="fill:#62C4C3;"/></svg>
+        </div>
+        <p>Active Cases</p>
+        <p id="active">0</p>
+      </div>
+
+      <div class="card text-dark bg-warning">
+        <div class="icon">
+            <?xml version="1.0" ?><svg width="64px" height="64px" viewBox="0 0 64 64" id="_x31_-outline-expand" style="enable-background:new 0 0 64 64;" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M55,17H39.479c-3.103,0-5.694,2.366-5.975,5.457L33,28l-8,6l4,5l10-7v-8h16v14h6V23  C61,19.687,58.313,17,55,17z" style="fill:#62C4C3;"/><polygon points="39,24 39,38 35,62 43,62 47,38 47,62 55,62 55,24 " style="fill:#62C4C3;"/><circle cx="47" cy="10" r="7" style="fill:#62C4C3;"/><rect height="4" style="fill:#EFBC2E;" width="2" x="10" y="3"/><rect height="2" style="fill:#EFBC2E;" width="4" x="9" y="2"/><rect height="4" style="fill:#EFBC2E;" transform="matrix(0.5 -0.866 0.866 0.5 -4.8925 8.5257)" width="2" x="3.937" y="6.5"/><rect height="2" style="fill:#EFBC2E;" transform="matrix(0.4999 -0.8661 0.8661 0.4999 -4.8925 6.5269)" width="4" x="1.206" y="6.5"/><rect height="2" style="fill:#EFBC2E;" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -7.0875 4.5442)" width="4" x="2.938" y="14.5"/><rect height="4" style="fill:#EFBC2E;" transform="matrix(0.866 -0.5 0.5 0.866 -7.8209 3.8137)" width="2" x="2.205" y="14.5"/><rect height="4" style="fill:#EFBC2E;" width="2" x="10" y="17"/><rect height="2" style="fill:#EFBC2E;" width="4" x="9" y="20"/><rect height="4" style="fill:#EFBC2E;" transform="matrix(0.5 -0.866 0.866 0.5 -4.8923 22.5259)" width="2" x="16.062" y="13.5"/><rect height="2" style="fill:#EFBC2E;" transform="matrix(0.4999 -0.8661 0.8661 0.4999 -4.8915 24.5287)" width="4" x="16.795" y="15.5"/><rect height="2" style="fill:#EFBC2E;" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -1.9642 9.6683)" width="4" x="15.063" y="7.5"/><rect height="4" style="fill:#EFBC2E;" transform="matrix(0.866 -0.5 0.5 0.866 -1.2319 10.4026)" width="2" x="17.794" y="5.5"/><circle cx="11" cy="12" r="6" style="fill:#AA494A;"/><circle cx="11" cy="12" r="4" style="fill:#D36767;"/><polygon points="31.707,16.707 30.293,15.293 33.586,12 30.293,8.707 31.707,7.293 36.414,12 " style="fill:#3A4249;"/><rect height="2" style="fill:#3A4249;" width="10" x="25" y="11"/><rect height="2" style="fill:#3A4249;" width="2" x="21" y="11"/><path d="M45.335,13.709c-1.217-1.21-3.063-1.517-4.594-0.762l-0.883-1.795  c2.298-1.13,5.065-0.672,6.887,1.138L45.335,13.709z" style="fill:#3A4249;"/><rect height="8" style="fill:#3A4249;" width="2" x="46" y="21"/><rect height="2" style="fill:#3A4249;" width="2" x="46" y="31"/><rect height="14" style="fill:#42A5B2;" width="2" x="55" y="24"/><rect height="8" style="fill:#42A5B2;" width="2" x="39" y="24"/></svg>
+        </div>
+
+        <p>New Cases</p>
+        <p id="new">0</p>
+      </div>
+
+      <div class="card text-white bg-success">
+        <div class="icon">
+            <?xml version="1.0" ?><svg width="64px" height="64px" viewBox="0 0 64 64" id="filled" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#fff;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-2{fill:#004fe3;}.cls-3{fill:#bdc3c7;}.cls-4{fill:#81dee3;}.cls-5{fill:none;}</style></defs><title/><rect class="cls-1" height="38" rx="2" ry="2" transform="translate(64 82) rotate(-180)" width="28" x="18" y="22"/><polygon class="cls-2" points="42 38.5 34.5 38.5 34.5 31 29.5 31 29.5 38.5 22 38.5 22 43.5 29.5 43.5 29.5 51 34.5 51 34.5 43.5 42 43.5 42 38.5"/><path class="cls-3" d="M25,16H39a0,0,0,0,1,0,0v4a2,2,0,0,1-2,2H27a2,2,0,0,1-2-2V16A0,0,0,0,1,25,16Z" transform="translate(64 38) rotate(-180)"/><rect class="cls-3" height="6" transform="translate(64 26) rotate(-180)" width="8" x="28" y="10"/><rect class="cls-4" height="6" transform="translate(64 14) rotate(-180)" width="4" x="30" y="4"/><path class="cls-5" d="M16,10l1.3416-2.6833A6,6,0,0,1,22.7082,4H40"/></svg>
+        </div>
+        <p>Recovered Cases</p>
+        <p id="recovered">0</p>
+      </div>
+
+
+
+      <div class="card text-white bg-dark">
+        <div class="icon">
+            <?xml version="1.0" ?><svg width="64px" height="64px" viewBox="0 0 64 64" id="_x31_-outline-expand" style="enable-background:new 0 0 64 64;" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="4,20 11,20 16,14 18,20 21,24 19,29 17,32 14,32 14,34 17,38 25,40 19,54 16,55 16,44 11,39   7,26 3,26 3,22 " style="fill:#62C4C3;"/><polygon points="31,23 29,26 26,28 30,30 25,33 27,36 32,37 32,41 34,44 36,44 38,38 38,34 41,34 43,37   46,34 47,36 47,39 55,41 52,37 51,34 54,31 54,26 61,24 61,21 51,16 48,16 37,22 34,20 31,20 " style="fill:#62C4C3;"/><polygon points="50,50 50,47 53,45 57,45 59,48 59,51 54,49 " style="fill:#62C4C3;"/><polygon points="23,10 29,10 29,15 25,21 22,16 20,15 20,10 " style="fill:#62C4C3;"/><path d="M48.036,29.264c-0.021-0.075-2.119-7.523-7.617-11.45c-6.571-4.693-16.127-2.852-16.223-2.833  l-0.393-1.961c0.425-0.085,10.508-2.026,17.777,3.167c6.088,4.348,8.293,12.218,8.384,12.551L48.036,29.264z" style="fill:#3A4249;"/><path d="M48.294,29.709c-0.048-0.048-4.911-4.766-14.394-5.714c-9.594-0.962-16.439,1.896-16.507,1.924  l-0.787-1.838c0.296-0.127,7.353-3.089,17.494-2.076c10.237,1.024,15.393,6.074,15.607,6.288L48.294,29.709z" style="fill:#3A4249;"/><path d="M56.782,47.624l-1.564-1.247c0.043-0.055,4.342-5.536,2.833-10.061  c-1.78-5.34-9.102-6.315-9.175-6.324l-0.121-0.022c-0.053-0.013-5.636-1.321-14.404,1.967c-7.595,2.848-12.455,10.516-12.503,10.593  l-1.696-1.06c0.211-0.338,5.274-8.323,13.497-11.407c9.005-3.375,14.834-2.208,15.533-2.048c0.82,0.113,8.662,1.354,10.767,7.668  C61.802,41.244,56.987,47.366,56.782,47.624z" style="fill:#3A4249;"/></svg>
+        </div>
+        <p>Total Cases</p>
+        <p id="total-cases">0</p>
+      </div>
+
+      <div class="card text-white bg-danger">
+        <div class="icon">
+          <?xml version="1.0" ?><svg width="64px" height="64px" viewBox="0 0 64 64" id="_x31_-outline-expand" style="enable-background:new 0 0 64 64;" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="44,62 32,62 32,2 46,2 53,17 " style="fill:#3A4249;"/><polygon points="34,62 14,62 5,17 12,2 36,2 43,17 " style="fill:#62C4C3;"/><path d="M33,22.999H15v-6c0-4.963,4.037-9,9-9s9,4.037,9,9V22.999z M17,20.999h14v-4c0-3.859-3.141-7-7-7  s-7,3.141-7,7V20.999z" style="fill:#3A4249;"/><rect height="3" style="fill:#3A4249;" width="2" x="17" y="21.999"/><rect height="3" style="fill:#3A4249;" width="2" x="21" y="21.999"/><rect height="3" style="fill:#3A4249;" width="2" x="25" y="21.999"/><rect height="3" style="fill:#3A4249;" width="2" x="29" y="21.999"/><polygon points="26.293,16.706 25,15.413 25,12.999 27,12.999 27,14.585 27.707,15.292 " style="fill:#3A4249;"/><polygon points="21.707,16.706 20.293,15.292 21,14.585 21,12.999 23,12.999 23,15.413 " style="fill:#3A4249;"/><path d="M28,29.999h-8c-2.206,0-4-1.794-4-4h2c0,1.103,0.897,2,2,2h8c1.103,0,2-0.897,2-2h2  C32,28.205,30.206,29.999,28,29.999z" style="fill:#3A4249;"/><path d="M60,48c0,7.732-6.268,14-14,14c-7.732,0-14-6.268-14-14s6.268-14,14-14C53.732,34,60,40.267,60,48  L60,48z" style="fill:#E0C494;"/><path d="M57.999,48c0,6.627-5.372,12-12,12c-6.627,0-12-5.372-12-12s5.372-12,12-12  C52.627,36,57.999,41.372,57.999,48L57.999,48z" style="fill:#F2DAAE;"/><rect height="4" style="fill:#EFBC2E;" width="2" x="45" y="38.999"/><rect height="2" style="fill:#EFBC2E;" width="4" x="44" y="37.999"/><rect height="4" style="fill:#EFBC2E;" transform="matrix(0.5 -0.866 0.866 0.5 -18.5687 56.8351)" width="2" x="38.938" y="42.499"/><rect height="2" style="fill:#EFBC2E;" transform="matrix(0.4999 -0.8661 0.8661 0.4999 -18.5672 54.8422)" width="4.001" x="36.206" y="42.499"/><rect height="2" style="fill:#EFBC2E;" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -20.3966 26.863)" width="4" x="37.938" y="50.499"/><rect height="4.001" style="fill:#EFBC2E;" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -21.1284 26.1311)" width="2" x="37.206" y="50.499"/><rect height="4" style="fill:#EFBC2E;" width="2" x="45" y="52.999"/><rect height="2" style="fill:#EFBC2E;" width="4" x="44" y="55.999"/><rect height="4" style="fill:#EFBC2E;" transform="matrix(0.5 -0.866 0.866 0.5 -18.569 70.8345)" width="2" x="51.062" y="49.499"/><rect height="2" style="fill:#EFBC2E;" transform="matrix(0.4999 -0.8661 0.8661 0.4999 -18.5675 72.8436)" width="4.001" x="51.794" y="51.5"/><rect height="2" style="fill:#EFBC2E;" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -15.2734 31.9865)" width="4" x="50.062" y="43.499"/><rect height="4.001" style="fill:#EFBC2E;" transform="matrix(0.8661 -0.4999 0.4999 0.8661 -14.542 32.7185)" width="2" x="52.794" y="41.5"/><path d="M52,48c0,3.313-2.687,6-6,6c-3.313,0-6-2.687-6-6s2.687-6,6-6C49.313,42,52,44.687,52,48L52,48z" style="fill:#AA494A;"/><path d="M49.999,48c0,2.208-1.791,4-4,4c-2.208,0-4-1.791-4-4s1.791-4,4-4C48.208,44,49.999,45.791,49.999,48  L49.999,48z" style="fill:#D36767;"/><rect height="2" style="fill:#3A4249;" width="2" x="24" y="55.999"/><rect height="2" style="fill:#3A4249;" width="2" x="20" y="55.999"/><rect height="2" style="fill:#3A4249;" width="2" x="16" y="55.999"/></svg>
+        </div>
+        <p>Total Deaths</p>
+        <p id="total-deaths">0</p>
+      </div>
+
+      <div class="card text-dark bg-light">
+        <div class="icon">
+            <?xml version="1.0" encoding="iso-8859-1"?>
+            <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+            <g>
+                <g id="XMLID_26_">
+                    <g>
+                        <rect x="75" y="365" style="fill:#F4661E;" width="50" height="50"/>
+                        <rect x="75" y="255" style="fill:#F4661E;" width="50" height="50"/>
+                        <rect x="75" y="145" style="fill:#F4661E;" width="50" height="50"/>
+                        <polygon style="fill:#CCCCCC;" points="420,60 445,120 395,120 			"/>
+                        <rect x="395" y="400" style="fill:#FFD248;" width="50" height="80"/>
+                        <rect x="395" y="120" style="fill:#31C0D8;" width="50" height="280"/>
+                        <polygon style="fill:#CCCCCC;" points="350,95 265,95 265,10 			"/>
+                        <path style="fill:#FFFFFF;" d="M350,95v385H10V10h255v85H350z M125,415v-50H75v50H125z M125,305v-50H75v50H125z M125,195v-50H75
+                            v50H125z"/>
+                    </g>
+                    <g>
+                        <path d="M357.071,87.929l-85-85c-1.912-1.912-4.47-2.904-7.071-2.905V0H10C4.477,0,0,4.477,0,10v470c0,5.523,4.477,10,10,10h340
+                            c5.523,0,10-4.477,10-10V95h-0.024C359.975,92.399,358.983,89.841,357.071,87.929z M275,34.142L325.858,85H275V34.142z M20,470
+                            V20h235v75c0,5.523,4.477,10,10,10h75v365H20z"/>
+                        <path d="M470,235v155h-15V120h-0.012c0-1.302-0.242-2.609-0.757-3.846l-25-60C427.678,52.427,424.037,50,420,50
+                            s-7.678,2.427-9.231,6.154l-25,60c-0.515,1.237-0.757,2.544-0.757,3.846H385v360c0,5.523,4.477,10,10,10h50
+                            c5.523,0,10-4.477,10-10v-70h25c5.523,0,10-4.477,10-10V235H470z M405,130h30v260h-30V130z M420,86l10,24h-20L420,86z M435,470
+                            h-30v-60h30V470z"/>
+                        <path d="M125,135H75c-5.523,0-10,4.477-10,10v50c0,5.523,4.477,10,10,10h50c5.523,0,10-4.477,10-10v-50
+                            C135,139.477,130.523,135,125,135z M115,185H85v-30h30V185z"/>
+                        <path d="M125,245H75c-5.523,0-10,4.477-10,10v50c0,5.523,4.477,10,10,10h50c5.523,0,10-4.477,10-10v-50
+                            C135,249.477,130.523,245,125,245z M115,295H85v-30h30V295z"/>
+                        <path d="M125,355H75c-5.523,0-10,4.477-10,10v50c0,5.523,4.477,10,10,10h50c5.523,0,10-4.477,10-10v-50
+                            C135,359.477,130.523,355,125,355z M115,405H85v-30h30V405z"/>
+                        <rect x="150" y="140" width="50" height="20"/>
+                        <rect x="150" y="180" width="135" height="20"/>
+                        <rect x="150" y="250" width="50" height="20"/>
+                        <rect x="150" y="290" width="135" height="20"/>
+                        <rect x="150" y="360" width="50" height="20"/>
+                        <rect x="150" y="400" width="135" height="20"/>
+                    </g>
+                </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            </svg>
+        </div>
+        <p>Total Tests</p>
+        <p id="total-test">0</p>
+      </div>
+      </div>
+    
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
